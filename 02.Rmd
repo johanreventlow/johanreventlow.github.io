@@ -28,6 +28,7 @@ VÆRKTØJ	SE KAPITEL	HVORNÅR BRUGES DET?
 
 <<<<<<< HEAD:02.Rmd
 <<<<<<< HEAD:02.Rmd
+<<<<<<< HEAD:02.Rmd
 ```{r, echo=FALSE}
 knitr::kable(
   head(mtcars[, 1:8], 10), booktabs = TRUE,
@@ -44,6 +45,8 @@ knitr::kable(
 | Optællingsskemaer og Paretodiagram | 3.5        | indsamle data om kvalitetsproblemet, til at identificere de vigtigste kilder til problemet og til grafisk at fremstille årsagerne til kvalitetsproblemet |
 
 =======
+=======
+>>>>>>> 479776abeba19c427692e734ec505a4c1f49229e:01-kapitel-1.Rmd
 =======
 >>>>>>> 479776abeba19c427692e734ec505a4c1f49229e:01-kapitel-1.Rmd
 |   |   |   |
@@ -65,6 +68,9 @@ Til at grave dybere ned i forståelsen af (kerne-)årsagerne til et problem.
 Optællingsskemaer og Paretodiagram	3.5
 Til at indsamle data om kvalitetsproblemet, til at identificere de vigtigste kilder til problemet og til grafisk at fremstille årsagerne til kvalitetsproblemet
 <<<<<<< HEAD:02.Rmd
+<<<<<<< HEAD:02.Rmd
+>>>>>>> 479776abeba19c427692e734ec505a4c1f49229e:01-kapitel-1.Rmd
+=======
 >>>>>>> 479776abeba19c427692e734ec505a4c1f49229e:01-kapitel-1.Rmd
 =======
 >>>>>>> 479776abeba19c427692e734ec505a4c1f49229e:01-kapitel-1.Rmd
