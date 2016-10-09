@@ -1,32 +1,7 @@
----
-title: "Metoder til at understøtte kvalitetsforbedring"
-author: "Enhed for Kvalitet, Bispebjerg og Frederiksberg Hospital"
-output:
-  bookdown::gitbook: default
-  bookdown::html_book: default
-  bookdown::pdf_book: default
-site: bookdown::bookdown_site
-documentclass: book
----
+# Datadrevet ledelse og kvalitetsforbedring
 
-<<<<<<< HEAD
-# Forside {-}
-```{r, echo=FALSE}
-#knitr::include_graphics('5725724-looking-the-future.jpg')
-#out.width = '33%'
-#knitr::include_graphics('COLOURBOX_SAMPLE10169489.jpg')
-#knitr::include_graphics('COLOURBOX_SAMPLE8829556.jpg')
-#knitr::include_graphics('COLOURBOX_SAMPLE8829814.jpg')
-knitr::include_graphics('COLOURBOX_SAMPLE8829395.jpg')
-#knitr::include_graphics('COLOURBOX_SAMPLE18106491.jpg')
-=======
-# Datadrevet ledelse og kvalitetsforbedring {-}
->>>>>>> 479776abeba19c427692e734ec505a4c1f49229e
+Alle ledelsesniveauer på Bispebjerg og Frederiksberg Hospital har siden 2015 arbejdet med datadrevet ledelse. Det overordnede formål er, at tilvejebringe en fælles platform for kvalitetsudvikling og forbedring af kliniske og organisatoriske processer i hele organisationen. 
 
-
-<<<<<<< HEAD
-```
-=======
 Formålet med Datadrevet Ledelse er at omsætte, fortolke og præsentere data på en måde, der skaber transparens og understøtter strategisk beslutningstagen baseret på valide data. Datadrevet Ledelse er samtidig et bærende element i Bispebjerg og Frederiksberg Hospitals arbejde med den regionale strategi om fokus og forenkling. 
 Fokus skabes gennem en nøje prioritering af hvilke meningsfyldte indikatorer direktion, afdelingsledelser og afsnitsledelser skal fokusere på. 
 
@@ -46,4 +21,3 @@ Det er besluttet, at seriediagrammer anvendes på tavlens venstre del i alle til
 Til brug for det forbedringsarbejde som skal foregå på tavlens højre del, præsenteres i de efterfølgende kapitler en række enkle værktøjer, som kan anvendes til at identificere årsager til kvalitetsproblemer, samt strukturere arbejdet med at finde og implementere kvalitetsforbedringer.
 
 Datadrevet Ledelse er et udviklingsprojekt og det er både omfattende og nyt for mange medarbejdere. Der er derfor også stor åbenhed omkring det faktum, at der kan være behov for at justere undervejs. 
->>>>>>> 479776abeba19c427692e734ec505a4c1f49229e
