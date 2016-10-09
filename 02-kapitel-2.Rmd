@@ -1,0 +1,96 @@
+# Brug forbedringsmodellen som ramme 
+Forbedringsmodellen kan hjælpe organisationer med at fokusere arbej-det med forbedring af processer. Forbedringsmodellen stiller en ramme op for forbedringsarbejdet, og den består af to dele: Den første del stiller 3 centrale spørgsmål til forbedringsarbejdet, der i væsentlig grad kan besvares ved hjælp værktøjerne under kapitel 2 Fokusér på kvalitetspro-blemer. Anden del af forbedringsmodellen er en afgrænset cyklisk proces – kendt som PDSA-cyklus – der gentages efter behov. 
+ 
+
+## Sæt mål: Hvad ønsker vi at opnå?
+For at gøre begrebet ”kvalitetsforbedring” operationelt, er der behov for klart definerede målsætninger, som skal kunne ses som svaret på spørgsmålet: ”Hvad ønsker vi at opnå?”. 
+Nogle målsætninger vil kunne fastlægges på baggrund af ”før”-målinger sammenholdt med fx de regionale driftsmål eller nationale standarder. Andre målsætninger vil have mere lokal karakter, og vil fx kunne fast-lægges på baggrund af aftaler mellem forskellige ledelseslag om niveauet for kvalitet.
+
+Målsætninger for forbedringsarbejde bør være:
+* Klare – For at kunne lave en klar plan for forbedringsarbejdet, må målsætninger være veldefinerede.
+* Afgrænsede i tid – Sæt en tidsramme for hvornår målsætninger skal være nået.
+* Realistiske og ambitiøse – Udviklingspotentiale findes som regel dér hvor man er nødt til at strække sig eller ”stå på tæer”.
+* Reel kvalitet – Sæt fokus på, om den enkelte målsætning faktisk bidrager til kvalitet for patienter og pårørende.
+
+## Etablér en måling: Hvordan kan vi se, at en ændring er en forbedring? 
+De berørte processer måles – dvs. data indsamles over tid, opgjort som:
+
+* Antal 
+* Andele (fx i procent)
+* Rate (fx utilsigtede hændelser pr. 1000 indlæggelsesdage) 
+* Målingsresultater (fx ventetider, blodtryk)
+Nogle typiske måletyper er:
+* Resultatmålinger – ”patientens stemme” i systemet. Resultatmålin-ger afspejler hospitalets ydelser, eller udfaldet heraf. Eksempler på resultatmålinger kunne være infektionsrater, ventetid mv. 
+* Procesmålinger – et udtryk for systemets evne til at leve op til krav, standarder og arbejdsgange. Med andre ord: præsterer de underlig-gende processer der understøtter hospitalets virksomhed som plan-lagt? 
+* Balancemålinger – systemet betragtet fra forskellige perspektiver. Balancemålinger kan give en indikation af om forbedringer på ét om-råde skaber nye problemer på andre områder. Eksempler kunne væ-re patient- og medarbejdertilfredshed eller produktivitet.
+Seriediagrammer er, som også tidligere nævnt, gode til at visualisere disse former for måle-data, da analyserne af data bliver enkle at gennem-føre og væsentligt mere kvalificerede. Dette skyldes, at seriediagrammer bygger på et sæt enkle statistiske principper, kendt som statistisk pro-ceskontrol (SPC), som tager højde for den naturlige variation i et data-sæt. 
+
+Seriediagrammet giver et statistisk validt og objektivt grundlag for at kunne sige om konkrete ændringer resulterer i målbare forbedringer.
+
+Seriediagrammer kan uden videre tegnes i hånden, men for at lette ar-bejdet, kan Excel-filen Hjælpeværktøjer til kvalitetsforbedring som inde-holder en skabelon til generering af seriediagrammer, benyttes. Excel-filen kan hentes på Insite under ’Data’.
+Se mere om seriediagrammer under 3.1 Seriediagram.
+
+## Vælg ændring: Hvilke handlinger kan skabe forbedringer?
+Idéer til forbedring vil oftest tage udgangspunkt i personalets kollektive viden om emnet og om mulige årsager til de aktuelle kvalitetsproblema-tikker. Idéer eller inspiration til forbedring kan også komme fra patien-ter, pårørende, andre afdelinger, andre hospitaler eller fra videnskabeli-ge artikler.
+
+Identificér først alle idéer, som kan adressere et problem, eller som kan forbedre resultater, ved at:
+
+* Bruge værktøjer til at finde og analysere årsager (se 2.2 Find og ana-lysér årsager), med henblik på at identificere hvor problemer opstår, samt pege på mulige løsninger
+* Bede teamet om idéer
+* Undersøge hvad Best Practice er andre steder og evt. undersøge lit-teratur
+* Overveje generiske forbedringsstrategier (hvad ville være en god generel tilgang til at forbedre kvaliteten? Kan LEAN, SPC eller andre metoder tilbyde noget?) og så brainstorme om hvordan disse kan til-passes i den konkrete lokale sammenhæng.
+Reducér dernæst listen over idéer, så den indeholder de forslag til æn-dring som med størst sandsynlighed kan resultere i forbedring. Mål fra processer eller delprocesser kan være en hjælp i arbejdet med at identi-ficere de ændringsmuligheder som skal undersøges nærmere.
+
+## Afprøv ændring: Brug Plan-Do-Study-Act
+###	Test og implementér ændringsidéer
+Når et antal mulige forbedringsidéer er identificeret, er det hensigts-mæssigt at teste hver enkelt så grundigt som muligt ved hjælp af et antal små test, hvor forskellige variationer og kombinationer afprøves. Brug PDSA-cyklus til at implementere og vurdere ændringen, og som et værk-tøj til at holde forbedringsteamet og projektet på sporet. Når resultater-ne er analyseret, udbredes de succesfulde forbedringer.
+Husk altid at tage højde for lokale organisatoriske forhold, patienttyper, personale og færdigheder, udstyr og politikker når der arbejdes med PDSA-cyklus. 
+
+###	Inden du begynder med PDSA-cyklus
+Du kan forberede et par ting, inden du begynder at gennemgå en eller flere cyklusser i PDSA:
+
+1.	Organisér dine forbedringsidéer i logiske grupper, fx sorteret efter ligheder eller fælles forbedringskoncept
+2.	Bestem hvilke forbedringsidéer der har højest prioritet og skal testes først
+3.	Identificér forskellige måder hvorpå hver idé kan implementeres
+
+### Sådan benyttes PDSA-cyklus
+PDSA-cyklus bruges til at udvikle ændringsidéer, til at teste ændringer i det små og til at implementere ændringer på tværs af et afsnit eller en afdeling. 
+
+Nedenstående er inspiration til de trin man bør gennemgå i det konkrete arbejde med PDSA-cyklus.
+
+Brug evt. PDSA-hjælpeskemaet fra den medfølgende Excel-fil Hjælpe-værktøjer til kvalitetsforbedring, som findes på Insite under ’Data’. 
+
+Forventet udfald af denne PDSA-cyklus?
+
+* Hvad forventes udfaldet af afprøvnin-gen at være?
+Plan for ændring
+* Hvad går ændringen ud på (detalje-ret)?
+* Hvem gør hvad?
+* Hvor gør de det?
+* Hvornår gør de det?
+Plan for dataindsamling
+* Hvilken information indsamles (tællin-ger, målinger, interviews, observatio-ner)?
+* Hvem indsamler data?
+* Hvem analyserer data og studerer re-sultatet?
+* Hvor indsamles data?
+* Hvornår finder dataindsamlingen sted?
+* Hvordan indsamles data?
+ 	Hvad skete ved udførelse af planen?
+Indførelse af ændring og dataindsamling
+* Notér faktisk udfald
+* Notér uforudsete problemer, uventede hændelser og begivenheder, der kan bidrage til at forstå hvorfor en ændring virkede eller ikke virkede.
+* Var der behov for at modificere pla-nen? - I givet fald hvilken modificering?
+* Begynd analysen af data (f.eks. Dia-gram, tabel)
+ 	Læring: Udfaldet af afprøvningen i for-hold til forventet udfald 
+* Sammenhold det observerede resultat af afprøvningen med det forventede udfald.
+* Sammenfatning - Skriv en liste med den viden/erfaring denne PDSA-cyklus medførte
+* Hvad var det bedste ved ændringen?
+* Hvad var det værste ved ændringen?
+ 	Næste handling
+* Er der behov for ny afprøvning for at være sikker på at ændringen medfører forbedring?
+* Skal alternative ændringer afprøves?
+* Skal andre aspekter ved ændringen undersøges?
+* Er der behov for at modificere den afprøvede ændring?
+* Er ændringen en fiasko, så den skal droppes helt?
+* Er sikkerheden for at ændringen virker stor nok til, at ændringen skal indføres i større skala?
+* Sammenfatning: Beskriv – med ud-gangspunkt i læringen for nuværende PDSA-cyklus – modifikationer til pla-nen med henblik på at gennemføre den næste PDSA-cyklus. Brug nyt hjælpe-skema.
