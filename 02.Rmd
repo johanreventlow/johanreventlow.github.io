@@ -26,9 +26,6 @@ Hvis et seriediagram viser at der er problemer med kvaliteten i en proces, kan e
 Nedenstående tabel beskriver kort de forskelige værktøjer og hvornår de kan anvendes. Værktøjerne er beskrevet i flere detaljer i kapitel 3 Værktøjer til kvalitetsforbedring
 VÆRKTØJ	SE KAPITEL	HVORNÅR BRUGES DET?
 
-<<<<<<< HEAD:02.Rmd
-<<<<<<< HEAD:02.Rmd
-<<<<<<< HEAD:02.Rmd
 ```{r, echo=FALSE}
 knitr::kable(
   head(mtcars[, 1:8], 10), booktabs = TRUE,
@@ -44,36 +41,13 @@ knitr::kable(
 | 5 x Hvorfor                        | 3.4        | grave dybere ned i forståelsen af (kerne-)årsagerne til et problem. |
 | Optællingsskemaer og Paretodiagram | 3.5        | indsamle data om kvalitetsproblemet, til at identificere de vigtigste kilder til problemet og til grafisk at fremstille årsagerne til kvalitetsproblemet |
 
-=======
-=======
->>>>>>> 479776abeba19c427692e734ec505a4c1f49229e:01-kapitel-1.Rmd
-=======
->>>>>>> 479776abeba19c427692e734ec505a4c1f49229e:01-kapitel-1.Rmd
-|   |   |   |
-|---|---|---|
-|Forløbsdiagram|3.2|Til at danne overblik og forstå de forskellige trin i en proces, samt identificere hvor kvalitetsproblemer opstår|
-|Årsags-/virkningsdiagram |3.3|Ved brainstorm om hovedårsagerne til et kvalitetsproblem, samt hvilke under¬årsager der bidrager til hver årsag|
-|   |   |
-|   |   |
-	
 
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
 
 5 x Hvorfor	3.4
 Til at grave dybere ned i forståelsen af (kerne-)årsagerne til et problem.
 Optællingsskemaer og Paretodiagram	3.5
 Til at indsamle data om kvalitetsproblemet, til at identificere de vigtigste kilder til problemet og til grafisk at fremstille årsagerne til kvalitetsproblemet
-<<<<<<< HEAD:02.Rmd
-<<<<<<< HEAD:02.Rmd
->>>>>>> 479776abeba19c427692e734ec505a4c1f49229e:01-kapitel-1.Rmd
-=======
->>>>>>> 479776abeba19c427692e734ec505a4c1f49229e:01-kapitel-1.Rmd
-=======
->>>>>>> 479776abeba19c427692e734ec505a4c1f49229e:01-kapitel-1.Rmd
+
 TABEL 2
 
 Dataenheden på Bispebjerg og Frederiksberg Hospital har udarbejdet en MS Excel-fil (Hjælpeværktøjer til kvalitetsforbedring – den findes på Insite under ’Data’), som indeholder skabeloner til brug eller inspiration for forbedringsarbejdet. 
