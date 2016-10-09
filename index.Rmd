@@ -6,7 +6,7 @@ output:
     config:
       toc:
         before: | 
-          <li><img src="Logo_Bispebjerg_og-Frederiksberg_web.png" width="210"></li>
+          <li><img src="Logo_Bispebjerg_og-Frederiksberg_web.png" width="210" style="padding-left: 15px; padding-top: 15px;"></li>
   bookdown::html_book: default
   bookdown::pdf_book: default
 site: bookdown::bookdown_site
