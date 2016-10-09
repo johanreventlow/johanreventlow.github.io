@@ -10,6 +10,7 @@ documentclass: book
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Forside {-}
 ```{r, echo=FALSE}
 #knitr::include_graphics('5725724-looking-the-future.jpg')
@@ -27,6 +28,12 @@ knitr::include_graphics('COLOURBOX_SAMPLE8829395.jpg')
 <<<<<<< HEAD
 ```
 =======
+=======
+# Datadrevet ledelse og kvalitetsforbedring {-}
+
+Alle ledelsesniveauer på Bispebjerg og Frederiksberg Hospital har siden 2015 arbejdet med datadrevet ledelse. Det overordnede formål er, at tilvejebringe en fælles platform for kvalitetsudvikling og forbedring af kliniske og organisatoriske processer i hele organisationen. 
+
+>>>>>>> 479776abeba19c427692e734ec505a4c1f49229e
 Formålet med Datadrevet Ledelse er at omsætte, fortolke og præsentere data på en måde, der skaber transparens og understøtter strategisk beslutningstagen baseret på valide data. Datadrevet Ledelse er samtidig et bærende element i Bispebjerg og Frederiksberg Hospitals arbejde med den regionale strategi om fokus og forenkling. 
 Fokus skabes gennem en nøje prioritering af hvilke meningsfyldte indikatorer direktion, afdelingsledelser og afsnitsledelser skal fokusere på. 
 
