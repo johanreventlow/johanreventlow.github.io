@@ -1,3 +1,20 @@
 book_filename: "Metoder til at understøtte kvalitetsforbedring"
 #chapter_name: "Kapitel "
 output_dir: "docs"
+
+language:
+  label:
+    fig: 'Figur '
+    tab: 'Tabel '
+    eq: 'Equation '
+    thm: 'Theorem '
+    lem: 'Lemma '
+    def: 'Definition '
+    cor: 'Corollary '
+    prp: 'Proposition '
+    ex: 'Eksempel '
+    proof: 'Proof. '
+    remark: 'Remark. '
+  ui:
+    edit: Edit
+    chapter: ''

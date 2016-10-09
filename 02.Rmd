@@ -1,16 +1,21 @@
 # Fokusér på kvalitetsproblemer
-Bispebjerg og Frederiksberg Hospitals ydelser kan – meget generaliseret – beskrives som resultatet af tusindvis af processer, der hver består af et antal forbundne trin som har et formål og en funktion. Processerne påvirker – og er afhængige af – det system de befinder sig i.
+Bispebjerg og Frederiksberg Hospitals ydelser kan – meget generaliseret – beskrives som resultatet af tusindvis af processer, der hver består af et antal forbundne trin, som har et formål og en funktion. Processerne påvirker – og er afhængige af – det system de befinder sig i.
 
-For at forbedre og forenkle en proces, er det nødvendigt at sætte fokus på at raffinere og optimere de enkelte trin i processen, gøre dem mere effektive, og fjerne trin som er overflødige. 
+For at forbedre en proces, må man sætte fokus på at raffinere og optimere de enkelte trin i processen, gøre dem mere effektive, og fjerne trin som er overflødige. 
 
-I dette arbejde kan man få god hjælp af forskellige værktøjer som beskrives i det følgende. Der er værktøjer, som viser data fra en proces, og der er værktøjer som hjælper med at finde og analysere årsager til kvalitetsproblemer. 
-Når de mulige årsager til et kvalitetsproblem er identificeret, starter arbejdet med at finde og implementere handlinger der kan imødegå årsagerne (se 2.3 Sammensæt et kvalitetsforbedringsteam og 3 Værktøjer til kvalitetsforbedring).
+I dette arbejde kan man få god hjælp af forskellige værktøjer som beskrives i det følgende. 
+
+Der er værktøjer som visualiserer data, og der er værktøjer som hjælper med at finde og analysere årsager til kvalitetsproblemer. 
+
+Når de mulige årsager til et kvalitetsproblem er identificeret, starter arbejdet med at finde og implementere handlinger der kan imødegå årsagerne (se [Sammensæt et kvalitetsforbedringsteam] og [Værktøjer til kvalitetsforbedring]).
 
 ## Vis data fra en proces
 Det naturlige udgangspunkt for kvalitetsforbedringsarbejde er, at en given proces ikke lever op til sin målsætning.
 
-Seriediagrammer er særligt egnede til at følge data fra en proces over tid, med henblik på at synliggøre problemer, og de bør anvendes overalt hvor det er meningsgivende. 
+Seriediagrammer er særligt egnede til at følge data fra en proces over tid, med henblik på at synliggøre problemer, og de bør anvendes overalt hvor det er meningsgivende.
+
 VÆRKTØJ	SE KAPITEL	HVORNÅR BRUGES DET?
+
 Seriediagram	3.1
 Til at vise data fra en proces over tid, for at se om en målsætning nås, samt om processen i øvrigt er stabil. Bruges også til at undersøge om en ændring der er gennemført fx ifm. kvalitetsarbejde, fører til en forbedring.
 Søjlediagrammer mv?		
@@ -23,7 +28,8 @@ Hvis et seriediagram viser at der er problemer med kvaliteten i en proces, kan e
 2. Hvad tror vi årsagerne til problemet er? (Årsags-/virkningsdiagram, 5 x Hvorfor)
 3. Hvad er de egentlige årsager til problemet? (Optællingsskemaer og Paretodiagram)
 
-Nedenstående tabel beskriver kort de forskelige værktøjer og hvornår de kan anvendes. Værktøjerne er beskrevet i flere detaljer i kapitel 3 Værktøjer til kvalitetsforbedring
+Nedenstående tabel beskriver kort de forskelige værktøjer og hvornår de kan anvendes. Værktøjerne er beskrevet i flere detaljer i kapitlet [Værktøjer til kvalitetsforbedring]
+
 VÆRKTØJ	SE KAPITEL	HVORNÅR BRUGES DET?
 
 ```{r, echo=FALSE}
@@ -42,12 +48,6 @@ knitr::kable(
 | Optællingsskemaer og Paretodiagram | 3.5        | indsamle data om kvalitetsproblemet, til at identificere de vigtigste kilder til problemet og til grafisk at fremstille årsagerne til kvalitetsproblemet |
 
 
-
-5 x Hvorfor	3.4
-Til at grave dybere ned i forståelsen af (kerne-)årsagerne til et problem.
-Optællingsskemaer og Paretodiagram	3.5
-Til at indsamle data om kvalitetsproblemet, til at identificere de vigtigste kilder til problemet og til grafisk at fremstille årsagerne til kvalitetsproblemet
-
 TABEL 2
 
 Dataenheden på Bispebjerg og Frederiksberg Hospital har udarbejdet en MS Excel-fil (Hjælpeværktøjer til kvalitetsforbedring – den findes på Insite under ’Data’), som indeholder skabeloner til brug eller inspiration for forbedringsarbejdet. 
@@ -57,7 +57,7 @@ Når det praktiske arbejde med forbedring af en proces skal igangsættes, håndt
 
 Identificér en teamleder som har tilstrækkelig pondus blandt kollegerne. Vær gerne åben overfor at inkludere folk som har legitime forbehold, og som er indstillet på at give konstruktiv kritik. Overvej at invitere en kollega fra et andet afsnit eller afdeling, som kender til tilsvarende problematikker, eller som er (med-)’ejer’ af en relateret proces.
 
-Overvej følgende, når jeres et team skal sammensættes:
+Overvej følgende, når jeres team skal sammensættes:
 
 * Har vi en repræsentant fra de fagområder/discipliner, som har med processen at gøre?
 * Har vi overvejet folk, som ikke er læger eller sygeplejersker?

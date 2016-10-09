@@ -1,21 +1,25 @@
 ---
-title: "Metoder til at understøtte kvalitetsforbedring"
-author: "Enhed for Kvalitet, Bispebjerg og Frederiksberg Hospital"
+title: Metoder til at understøtte kvalitetsforbedring
+subtitle: Bispebjerg og Frederiksberg Hospital
+#author: 
+#- name: Johan Reventlow
+#  affiliation: Bispebjerg og Frederiksberg Hospital
+#date: "`r format(Sys.Date(), '%B %Y')`"
 output:
-  bookdown::gitbook: 
+  bookdown::gitbook:
     config:
       toc:
-        before: | 
-          <li><img src="Logo_Bispebjerg_og-Frederiksberg_web.png" width="210" style="padding-left: 15px; padding-top: 15px;"></li>
-  bookdown::html_book: default
+        before: |
+          <li><img src="../Logo_Bispebjerg_og-Frederiksberg_web.png" width="210" style="padding-left: 15px; padding-top: 15px;"></li>
   bookdown::pdf_book: default
+link-citations: yes
 site: bookdown::bookdown_site
 documentclass: book
 ---
+# Forord {-}
+```{r, echo=FALSE, fig.align='center'}
+#<img src="../Logo_Bispebjerg_og-Frederiksberg_web.png" width="210" style="padding-left: 15px; padding-top: 15px;">
 
-
-# Forside {-}
-```{r, echo=FALSE}
 #knitr::include_graphics('5725724-looking-the-future.jpg')
 #out.width = '33%'
 #knitr::include_graphics('COLOURBOX_SAMPLE10169489.jpg')
@@ -27,3 +31,9 @@ knitr::include_graphics('COLOURBOX_SAMPLE8829395.jpg')
 # Datadrevet ledelse og kvalitetsforbedring {-}
 
 ```
+
+Hermed foreligger Bispebjerg og Frederiksberg Hospitals introduktion til forbedringsarbejdet i 2. udgave, og samtidig udgives den for første gang primært digitalt. Den bærer, som hidtil, titlen 'Metoder til at understøtte kvalitetsforbedring', og er redigeret af Enhed for Kvalitet under Udviklingsafdelingen.
+
+-- Enhed for Kvalitet, Udviklingsafdelingen
+
+
