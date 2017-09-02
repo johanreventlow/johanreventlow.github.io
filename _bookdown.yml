@@ -1,4 +1,4 @@
-book_filename: "Metoder til at understøtte kvalitetsforbedring"
+book_filename: "Metoder_til_at_understøtte_kvalitetsforbedring"
 #chapter_name: "Kapitel "
 output_dir: "docs"
 
@@ -16,5 +16,5 @@ language:
     proof: 'Proof. '
     remark: 'Remark. '
   ui:
-    edit: Edit
+    edit: Redigér
     chapter: ''

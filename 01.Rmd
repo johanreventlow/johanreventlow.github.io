@@ -4,9 +4,9 @@ Formålet med Datadrevet Ledelse er, at tilvejebringe en fælles platform for kv
 
 Datadrevet Ledelse er et bærende element i hospitalets arbejde med den regionale strategi om fokus og forenkling. 
 
-* Fokus skabes gennem en nøje prioritering af hvilke meningsfyldte indikatorer direktion, afdelingsledelser og afsnitsledelser skal fokusere på. 
+* _Fokus_ skabes gennem en nøje prioritering af hvilke meningsfyldte indikatorer direktion, afdelingsledelser og afsnitsledelser skal fokusere på. 
 
-* Forenkling skabes ved, at de valgte indikatorer skal kunne monitoreres ved hjælp af synlige og tilgængelige data, ligesom indikatorvalgene indebærer en lang række bevidste fravalg af andre indikatorer.
+* _Forenkling_ skabes ved, at de valgte indikatorer skal kunne monitoreres ved hjælp af synlige og tilgængelige data, ligesom indikatorvalgene indebærer en lang række bevidste fravalg af andre indikatorer.
 
 Datadrevet Ledelse er samtidig det gennemgående metodiske styringsredskab i hospitalets indsatser for at leve op til de nationale kvalitetsmål, samt den regionale driftsmålstyring.
 
