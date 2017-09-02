@@ -6,9 +6,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Metoder til at understøtte kvalitetsforbedring</title>
-  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
   <meta name="description" content="Metoder til at understøtte kvalitetsforbedring">
-  <meta name="generator" content="bookdown 0.1.16 and GitBook 2.6.7">
+  <meta name="generator" content="bookdown 0.5 and GitBook 2.6.7">
 
   <meta property="og:title" content="Metoder til at understøtte kvalitetsforbedring" />
   <meta property="og:type" content="book" />
@@ -24,7 +23,6 @@
   
 
 
-  
 
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,7 +31,6 @@
   
   
 <link rel="prev" href="brug-forbedringsmodellen-som-ramme.html">
-
 
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -54,6 +51,7 @@
 </head>
 
 <body>
+
 
 
   <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
@@ -90,6 +88,10 @@
 <li class="chapter" data-level="4.1.1" data-path="vrktjer-til-kvalitetsforbedring.html"><a href="vrktjer-til-kvalitetsforbedring.html#seriediagrammets-elementer"><i class="fa fa-check"></i><b>4.1.1</b> Seriediagrammets elementer</a></li>
 <li class="chapter" data-level="4.1.2" data-path="vrktjer-til-kvalitetsforbedring.html"><a href="vrktjer-til-kvalitetsforbedring.html#fortolkning-af-seriediagrammet"><i class="fa fa-check"></i><b>4.1.2</b> Fortolkning af seriediagrammet</a></li>
 </ul></li>
+<li class="chapter" data-level="4.2" data-path="vrktjer-til-kvalitetsforbedring.html"><a href="vrktjer-til-kvalitetsforbedring.html#forlbsdiagram"><i class="fa fa-check"></i><b>4.2</b> Forløbsdiagram</a></li>
+<li class="chapter" data-level="4.3" data-path="vrktjer-til-kvalitetsforbedring.html"><a href="vrktjer-til-kvalitetsforbedring.html#arsags-virkningsdiagram"><i class="fa fa-check"></i><b>4.3</b> Årsags-/virkningsdiagram</a></li>
+<li class="chapter" data-level="4.4" data-path="vrktjer-til-kvalitetsforbedring.html"><a href="vrktjer-til-kvalitetsforbedring.html#x-hvorfor"><i class="fa fa-check"></i><b>4.4</b> 5 X Hvorfor</a></li>
+<li class="chapter" data-level="4.5" data-path="vrktjer-til-kvalitetsforbedring.html"><a href="vrktjer-til-kvalitetsforbedring.html#simpel-optlling-og-paretodiagram"><i class="fa fa-check"></i><b>4.5</b> Simpel optælling og paretodiagram</a></li>
 </ul></li>
 </ul>
 
@@ -121,27 +123,88 @@
 <p>Det layout for seriediagrammer som anvendes på Bispebjerg og Frederiksberg Hospital kan opdeles i 5 hovedelementer, som gennemgås i det efterfølgende.</p>
 <ol style="list-style-type: decimal">
 <li>Oplysninger om den aktuelle indikator, og navnet på afdeling eller afsnit.</li>
-<li>Hovedelementet i et seriediagram er en graf, som består af målepunkter i kronologisk rækkefølge. Målepunkterne angives på værdiaksen og er forbundne. De skal illustrere hvordan en proces opfører sig over tid.</li>
-</ol>
+<li><p>Hovedelementet i et seriediagram er en graf, som består af målepunkter i kronologisk rækkefølge. Målepunkterne angives på værdiaksen og er forbundne. De skal illustrere hvordan en proces opfører sig over tid.</p>
 <p>Medianen i data – det vil sige den midterste værdi, hvis man sorterer datasættet – angives langs tidsaksen som en rød lige linje, for at synliggøre hvor de enkelte målepunkter ligger i forhold til denne. Langs tidsaksen indtegnes også målsætningen med grå stiplet linje. Der kan være flere medianer indtegnet, hvis grafen over tid har vist en signifikant forbedring eller forværring i kvalitetsniveau.</p>
-<p>Diagrammet viser desuden en kort beskrivelse øverst af data, hvor mange observationer der gennemsnitligt indgår i et enkelt datapunkt, og hvor mange observationer der indgår i det seneste datapunkt.</p>
-<ol start="3" style="list-style-type: decimal">
+<p>Diagrammet viser desuden en kort beskrivelse øverst af data, hvor mange observationer der gennemsnitligt indgår i et enkelt datapunkt, og hvor mange observationer der indgår i det seneste datapunkt.</p></li>
 <li>Målsætningen for indikatoren angives sammen med medianværdien, som et udtryk for i hvor høj grad målsætningen nås.</li>
 <li>En kort datadefinition og eventuelle relevante kommentarer til data, samt information om processen indeholder tilfældig variation, eller – hvis den ikke gør – på hvilken måde processen er ikke-tilfældig.</li>
-<li>En tendenskurve samt en grafisk indikation af om processen er stabil eller ikke stabil (hhv. tilfældig og ikketilfældig variation).</li>
+<li><p>En tendenskurve samt en grafisk indikation af om processen er stabil eller ikke stabil (hhv. tilfældig og ikketilfældig variation).</p></li>
 </ol>
 <p>Tendenskurven skal tages som en visualisering af om det ”går den rigtige vej”. Den dannes på baggrund af de enkelte datapunkters kumulerede afstand til den aktuelle median, og udviser derfor en lidt højere følsomhed overfor ændringer i en proces en det egentlige seriediagram. Den kan derfor tjene som en tidlig advarsel om at data er ved at ændre retning.</p>
 </div>
 <div id="fortolkning-af-seriediagrammet" class="section level3">
 <h3><span class="header-section-number">4.1.2</span> Fortolkning af seriediagrammet</h3>
 <p>Som nævnt ovenfor, er særligt niveau og retning i data væsentlige for fortolkningen af data.</p>
-<p>Seriediagrammets median angiver det aktuelle niveau for den pågældende proces, og den skal vurderes i forhold til det mål som er sat for processen. Hvis niveauet i kvaliteten er tilfredsstillende kan data derefter monitoreres løbende for at sikre at processen vedbliver at være stabil på det ønskede kvalitetsniveau. Man tilstræber normalt at datapunkter varierer tilfældigt omkring medianen i et datasæt. Tilfældig variation er et udtryk for at en given proces er stabil, mens ikke-tilfældig variation er et tegn på at ”noget” styrer data, og at processen derfor ikke er stabil. Hvis en proces viser ikke-tilfældig variation, så betyder det at datapunkterne er begyndt at få en anden retning end den tilfældige bevægelse omkring medianen – med andre ord vil det ikke længere være tilfældigt om næste datapunkt falder over eller under medianen. Hvis retningen er positiv, fx øget patienttilfredshed eller et fald i ventetider, så er det et udtryk for at data viser at en kvalitetsforbedring er signifikant. Hvis retningen er negativ så er det anledning til at analysere hvad der er begyndt at styre data, og derefter iværksætte forbedringsarbejde for at få retningen tilbage på kurs og niveau. Hvis et team arbejder med at forbedre en proces og variationen af data bliver ved at være tilfældig, så har ændringerne endnu ikke ført til dokumentérbare forbedringer. Det er nødvendigt at vende tilbage til Forbedringsmodellen, analyseværktøjer og PDSA-cyklusser. ## FORLØBSDIAGRAM Et forløbsdiagram, også kendt som Flowchart eller Procesmodel, er en kortlægning af de forskellige trin i en proces – for eksempel de trin som et ambulatorium gennemgår for at levere en bestemt behandling. Forløbsdiagrammet kan give overblik over et helt forløb, og hjælper teams med at fokusere på procestrin som har problemer. Et traditionelt forløbsdiagram er ofte meget detaljeret, og derfor kan man overveje om et overordnet forløbsdiagram, evt. med supplerende kommentarer i punktform, er tilstrækkeligt til at give det fornødne indblik i processens trin.</p>
-<p>FIGUR 3 – Traditionelt forløbsdiagram (fra ”Implementering af Nationale Kliniske Retningslinjer”, Sundhedsstyrelsen.dk)</p>
-<p>FIGUR 4 – Overordnet forløbsdiagram (fra ”Implementering af Nationale Kliniske Retningslinjer”, Sundhedsstyrelsen.dk) Trin-for-trin vejledning 1. Saml gruppen som skal arbejde med at definere et forløbsdiagram. Væsentlige interessenter bør være repræsenteret. 2. Fastlæg hvad start og slutpunktet i forløbene er. 3. Fokusér på at kortlægge de vigtigste dele af processerne – brug ikke for meget tid på undtagelserne. 4. Forløbsdiagrammet skal vise de faktiske processer, ikke de ideelle. 5. Benyt fx. et whiteboard eller post-it-sedler til at udarbejde diagrammet. ## ÅRSAGS-/VIRKNINGSDIAGRAM Årsags-/virkningsdiagrammet (eller fiskebensdiagrammet) er et enkelt værktøj, som kan bruges til at strukturere en brainstorm og lave en grafisk visning af mulige årsager til et problem. Et årsags-/virkningsdiagram (se figur 5) er et vigtigt skridt i kvalitetsforbedringsarbejde, og det kan hjælpe med at sikre at et forbedringsteam har det nødvendige overblik over mulige årsager til problemet, før teamet går i gang med at finde løsninger.</p>
-<p>FIGUR 5 - Udsnit af et eksempel på et udfyldt årsags-/virkningsdiagram Trin-for-trin vejledning Udskriv skabelonen til årsags-/virkningsdiagrammet fra Excel-filen Hjælpeværktøjer til kvalitetsforbedring, som findes på Insite under ’Data’, og udfyld i hånden ved at 1. Formulere problemet så kort og entydigt som muligt, og skriv ind i boksen til højre (under virkning) 2. Justér evt. hovedkategorierne på de fem ben så de er dækkende for den konkrete kontekst, og tilføj eller fjern ben efter behov. 3. Når de vigtigste hovedgrupper er placeret, er det en god idé at give god plads til at teamet kan arbejde kreativt med at finde årsager. Bed teamet overveje hvert ben i diagrammet, og ikke fokusere for meget opmærksomhed på kun en enkelt eller to årsagskategorier. Det er bedst ikke at diskutere idéerne på dette niveau af brainstormingsprocessen. 4. Skriv dernæst de årsager, som teamet mener, bidrager til problemet, ind under de rette ben i diagrammet. 5. Teamet kan beslutte at indtegne yderligere underårsager til de identificerede årsager direkte i diagrammet, eller en blank skabelon kan anvendes til at visualisere næste niveau under en årsag. Gentag efter behov, indtil årsags/virkningskomplekset er afdækket i tilstrækkelig grad til at teamet kan arbejde videre. Excel-skabelonen indeholder mulighed for, at man indtaster problem og mulige årsager direkte i et redigeringsfaneblad, hvorefter det færdig årsags-/virkningsdiagram kan printes ud. Når årsags-/virkningsdiagrammet er færdigt, kan teamet begynde at bedømme resultatet, for at forstå og analysere årsagerne til problemet. ## 5 X HVORFOR ”5 x Hvorfor” er et simpelt værktøj til brainstorming, som hjælper forbedringsteams med at finde grundlæggende årsager bag et problem. Når teamet har identificeret årsager til et problem ved hjælp af enten Årsags-/virkningsdiagrammer, så stil så mange ”hvorfor?”-spørgsmål som muligt, for at bore ned igennem de enkelte årsager. Stop når svarene ikke længere giver mening, set i relation til spørgsmålet. Problem: Jeg er for dårlig til at danse vals Hvorfor? Jeg har ikke styr på trinene Hvorfor? Jeg mangler øvelse Hvorfor? Jeg har ikke fået øvet dem med min dansepartner Hvorfor? Hun har været syg de sidste 3 gange FIGUR 6 – Eksempel på 5 x Hvorfor Denne arbejdsform giver teams mulighed for at se videre end de mest åbenlyse svar, og at reflektere over mindre indlysende forklaringer. Trin-for-trin vejledning 1. Spørg ”hvorfor” har vi problemet 2. Spørg ”hvorfor” til årsagen. Bliv ved at spørge ”hvorfor” til hver foreslået årsag (på samme måde som en spørgelysten 3-årig kunne gøre). 3. Spørg så mange gange der er behov for, for at få problemet brudt ned i størrelser som der kan arbejdes med (5 gange er typisk, men det kan være flere eller færre gange) ”5 x Hvorfor” bruges som regel til at udforske et problem i dybden, ved at fokusere på at finde årsager, som måtte ligge bag dem som teamet mener er primære. Metoden kan hjælpe med at sikre, at man undgår bias eller at fokusere for snævert. 4.5 SIMPEL OPTÆLLING OG PARETODIAGRAMMER Et optællingsskema er et simpelt værktøj til at samle data, som kan hjælpe et team med at identificere den eller de vigtigste årsager bag et kvalitetsproblem. Helt konkret bruges optællingsskemaet til at dokumentere frekvensen af årsager til et problem, og det er særligt nyttigt når teamet allerede har identificeret et antal mulige årsager eller fejlkilder.</p>
-<p>FIGUR 7 Trin-for-trin vejledning 1. Lav en liste over de mest almindelige årsager til det pågældende problem. Hvis du allerede har lavet et årsags-/virkningsdiagram, så brug årsagerne derfra. Skriv så mange ned som nødvendigt – en typisk liste indeholder 6 til 10 årsager. Tilføj også en ”Andet”-årsag. 2. Skriv årsagerne ind i et optællingsskema som oven for - Excel-skabelon Hjælpeværktøjer til kvalitetsforbedring, der kan findes på Insite under ’Data’ indeholder et forslag til et optællingsskema som enten kan printes og bruges, eller som kan udfyldes direkte på PC’en. 3. Beslut hvordan data skal indsamles – Skal der samles data ind fremadrettet, eller findes der historiske data. Skal der foretages audits, eller bruges anden dokumentation? 4. Fastsæt en tidsramme for dataindsamlingen. Tidsrammen bør være lang nok til at lave fx 50 fund. Hvis data samles ind fremadrettet, så forsøg at holde indsamlingsperioden kort (fx 1 uge). 5. Identificér hvem skal indsamle data, og bed dem sætte en streg ud for hver årsag de observerer. Vær tydelig omkring hvordan årsagerne er defineret. 6. Opgør hvilke årsager der har haft flest fund, og fokusér på disse i det kommende forbedringsarbejde. Tegn evt. data ind i et Paretodiagram ved hjælp af det medfølgende værktøj, som beskrevet nedenfor. Et Paretodiagram er et værktøj, som hjælper et team med at vise årsager eller områder som bidrager mest til det undersøgte kvalitetsproblem. Paretodiagrammet bygger på en teori om, at et lille antal årsager er de største ”syndere” i en proces. Når størstedelen af en problematik kan henføres til et lille del af de mulige årsager, kaldes det Paretoeffekt. Et klassisk eksempel på en Paretoeffekt er når 20% af det man gør, resulterer i 80% af problemerne. Selve diagrammet viser antal observationer af hvert problem i søjler, og viser samtidigt det akkumulerede antal i procent, for at gøre det enkelt at identificere hvilke årsager der bidrager til hovedparten af problemet (her 80%). Trin-for-trin vejledning 1. Lav en optælling som beskrevet ovenfor, fx ved hjælp af Optællings-skema-skabelonen 2. Indtast årsager og antal observationer i redigeringsfanebladet til Paretodiagrammer i Excel-skabelonen Hjælpeværktøjer til kvalitetsforbedring, som findes på Insite under ’Data’. 3. Udskriv det færdige Paretodiagram og fokusér forbedringsarbejdet på de væsentligste årsager til problemet.</p>
-
+<p>Seriediagrammets median angiver det aktuelle niveau for den pågældende proces, og den skal vurderes i forhold til det mål som er sat for processen.</p>
+<p>Hvis niveauet i kvaliteten er tilfredsstillende kan data derefter monitoreres løbende for at sikre at processen vedbliver at være stabil på det ønskede kvalitetsniveau.</p>
+<p>Man tilstræber normalt at datapunkter varierer tilfældigt omkring medianen i et datasæt. Tilfældig variation er et udtryk for at en given proces er stabil, mens ikke-tilfældig variation er et tegn på at ”noget” styrer data, og at processen derfor ikke er stabil.</p>
+<p>Hvis en proces viser ikke-tilfældig variation, så betyder det at datapunkterne er begyndt at få en anden retning end den tilfældige bevægelse omkring medianen – med andre ord vil det ikke længere være tilfældigt om næste datapunkt falder over eller under medianen. Hvis retningen er positiv, fx øget patienttilfredshed eller et fald i ventetider, så er det et udtryk for at data viser at en kvalitetsforbedring er signifikant.</p>
+<p>Hvis retningen er negativ så er det anledning til at analysere hvad der er begyndt at styre data, og derefter iværksætte forbedringsarbejde for at få retningen tilbage på kurs og niveau.</p>
+<p>Hvis et team arbejder med at forbedre en proces og variationen af data bliver ved at være tilfældig, så har ændringerne endnu ikke ført til dokumentérbare forbedringer. Det er nødvendigt at vende tilbage til Forbedringsmodellen, analyseværktøjer og PDSA-cyklusser.</p>
 </div>
+</div>
+<div id="forlbsdiagram" class="section level2">
+<h2><span class="header-section-number">4.2</span> Forløbsdiagram</h2>
+<p>Et forløbsdiagram, også kendt som Flowchart eller Procesmodel, er en kortlægning af de forskellige trin i en proces – for eksempel de trin som et ambulatorium gennemgår for at levere en bestemt behandling. Forløbsdiagrammet kan give overblik over et helt forløb, og hjælper teams med at fokusere på procestrin som har problemer.</p>
+<p>Et traditionelt forløbsdiagram er ofte meget detaljeret, og derfor kan man overveje om et overordnet forløbsdiagram, evt. med supplerende kommentarer i punktform, er tilstrækkeligt til at give det fornødne indblik i processens trin.</p>
+<p>FIGUR 3 – Traditionelt forløbsdiagram (fra ”Implementering af Nationale Kliniske Retningslinjer”, Sundhedsstyrelsen.dk)</p>
+<p>FIGUR 4 – Overordnet forløbsdiagram (fra ”Implementering af Nationale Kliniske Retningslinjer”, Sundhedsstyrelsen.dk)</p>
+<p><strong>Trin-for-trin vejledning</strong></p>
+<ol style="list-style-type: decimal">
+<li>Saml gruppen som skal arbejde med at definere et forløbsdiagram. Væsentlige interessenter bør være repræsenteret.</li>
+<li>Fastlæg hvad start og slutpunktet i forløbene er.</li>
+<li>Fokusér på at kortlægge de vigtigste dele af processerne – brug ikke for meget tid på undtagelserne.</li>
+<li>Forløbsdiagrammet skal vise de faktiske processer, ikke de ideelle.</li>
+<li>Benyt fx. et whiteboard eller post-it-sedler til at udarbejde diagrammet.</li>
+</ol>
+</div>
+<div id="arsags-virkningsdiagram" class="section level2">
+<h2><span class="header-section-number">4.3</span> Årsags-/virkningsdiagram</h2>
+<p>Årsags-/virkningsdiagrammet (eller fiskebensdiagrammet) er et enkelt værktøj, som kan bruges til at strukturere en brainstorm og lave en grafisk visning af mulige årsager til et problem. Et årsags-/virkningsdiagram (se figur 5) er et vigtigt skridt i kvalitetsforbedringsarbejde, og det kan hjælpe med at sikre at et forbedringsteam har det nødvendige overblik over mulige årsager til problemet, før teamet går i gang med at finde løsninger.</p>
+<p>FIGUR 5 - Udsnit af et eksempel på et udfyldt årsags-/virkningsdiagram</p>
+<p><strong>Trin-for-trin vejledning</strong></p>
+<p>Udskriv skabelonen til årsags-/virkningsdiagrammet fra Excel-filen Hjælpeværktøjer til kvalitetsforbedring, som findes på Insite under ’Data’, og udfyld i hånden ved at</p>
+<ol style="list-style-type: decimal">
+<li>Formulere problemet så kort og entydigt som muligt, og skriv ind i boksen til højre (under virkning)</li>
+<li>Justér evt. hovedkategorierne på de fem ben så de er dækkende for den konkrete kontekst, og tilføj eller fjern ben efter behov.</li>
+<li>Når de vigtigste hovedgrupper er placeret, er det en god idé at give god plads til at teamet kan arbejde kreativt med at finde årsager. Bed teamet overveje hvert ben i diagrammet, og ikke fokusere for meget opmærksomhed på kun en enkelt eller to årsagskategorier. Det er bedst ikke at diskutere idéerne på dette niveau af brainstormingsprocessen.</li>
+<li>Skriv dernæst de årsager, som teamet mener, bidrager til problemet, ind under de rette ben i diagrammet.</li>
+<li>Teamet kan beslutte at indtegne yderligere underårsager til de identificerede årsager direkte i diagrammet, eller en blank skabelon kan anvendes til at visualisere næste niveau under en årsag. Gentag efter behov, indtil årsags/virkningskomplekset er afdækket i tilstrækkelig grad til at teamet kan arbejde videre.</li>
+</ol>
+<p>Excel-skabelonen indeholder mulighed for, at man indtaster problem og mulige årsager direkte i et redigeringsfaneblad, hvorefter det færdig årsags-/virkningsdiagram kan printes ud.</p>
+<p>Når årsags-/virkningsdiagrammet er færdigt, kan teamet begynde at bedømme resultatet, for at forstå og analysere årsagerne til problemet.</p>
+</div>
+<div id="x-hvorfor" class="section level2">
+<h2><span class="header-section-number">4.4</span> 5 X Hvorfor</h2>
+<p>”5 x Hvorfor” er et simpelt værktøj til brainstorming, som hjælper forbedringsteams med at finde grundlæggende årsager bag et problem. Når teamet har identificeret årsager til et problem ved hjælp af enten Årsags-/virkningsdiagrammer, så stil så mange ”hvorfor?”-spørgsmål som muligt, for at bore ned igennem de enkelte årsager. Stop når svarene ikke længere giver mening, set i relation til spørgsmålet.</p>
+<p>Problem: Jeg er for dårlig til at danse vals Hvorfor? Jeg har ikke styr på trinene Hvorfor? Jeg mangler øvelse Hvorfor? Jeg har ikke fået øvet dem med min dansepartner Hvorfor? Hun har været syg de sidste 3 gange</p>
+<p>FIGUR 6 – Eksempel på 5 x Hvorfor</p>
+<p>Denne arbejdsform giver teams mulighed for at se videre end de mest åbenlyse svar, og at reflektere over mindre indlysende forklaringer.</p>
+<p><strong>Trin-for-trin vejledning</strong> 1. Spørg ”hvorfor” har vi problemet 2. Spørg ”hvorfor” til årsagen. Bliv ved at spørge ”hvorfor” til hver foreslået årsag (på samme måde som en spørgelysten 3-årig kunne gøre). 3. Spørg så mange gange der er behov for, for at få problemet brudt ned i størrelser som der kan arbejdes med (5 gange er typisk, men det kan være flere eller færre gange)</p>
+<p>”5 x Hvorfor” bruges som regel til at udforske et problem i dybden, ved at fokusere på at finde årsager, som måtte ligge bag dem som teamet mener er primære. Metoden kan hjælpe med at sikre, at man undgår bias eller at fokusere for snævert.</p>
+</div>
+<div id="simpel-optlling-og-paretodiagram" class="section level2">
+<h2><span class="header-section-number">4.5</span> Simpel optælling og paretodiagram</h2>
+<p>Et optællingsskema er et simpelt værktøj til at samle data, som kan hjælpe et team med at identificere den eller de vigtigste årsager bag et kvalitetsproblem. Helt konkret bruges optællingsskemaet til at dokumentere frekvensen af årsager til et problem, og det er særligt nyttigt når teamet allerede har identificeret et antal mulige årsager eller fejlkilder.</p>
+<p>FIGUR 7</p>
+<p><strong>Trin-for-trin vejledning</strong></p>
+<ol style="list-style-type: decimal">
+<li>Lav en liste over de mest almindelige årsager til det pågældende problem. Hvis du allerede har lavet et årsags-/virkningsdiagram, så brug årsagerne derfra. Skriv så mange ned som nødvendigt – en typisk liste indeholder 6 til 10 årsager. Tilføj også en ”Andet”-årsag.</li>
+<li>Skriv årsagerne ind i et optællingsskema som oven for - Excel-skabelon Hjælpeværktøjer til kvalitetsforbedring, der kan findes på Insite under ’Data’ indeholder et forslag til et optællingsskema som enten kan printes og bruges, eller som kan udfyldes direkte på PC’en.</li>
+<li>Beslut hvordan data skal indsamles – Skal der samles data ind fremadrettet, eller findes der historiske data. Skal der foretages audits, eller bruges anden dokumentation?</li>
+<li>Fastsæt en tidsramme for dataindsamlingen. Tidsrammen bør være lang nok til at lave fx 50 fund. Hvis data samles ind fremadrettet, så forsøg at holde indsamlingsperioden kort (fx 1 uge).</li>
+<li>Identificér hvem skal indsamle data, og bed dem sætte en streg ud for hver årsag de observerer. Vær tydelig omkring hvordan årsagerne er defineret.</li>
+<li>Opgør hvilke årsager der har haft flest fund, og fokusér på disse i det kommende forbedringsarbejde. Tegn evt. data ind i et Paretodiagram ved hjælp af det medfølgende værktøj, som beskrevet nedenfor.</li>
+</ol>
+<p>Et Paretodiagram er et værktøj, som hjælper et team med at vise årsager eller områder som bidrager mest til det undersøgte kvalitetsproblem. Paretodiagrammet bygger på en teori om, at et lille antal årsager er de største ”syndere” i en proces. Når størstedelen af en problematik kan henføres til et lille del af de mulige årsager, kaldes det Paretoeffekt. Et klassisk eksempel på en Paretoeffekt er når 20% af det man gør, resulterer i 80% af problemerne.</p>
+<p>Selve diagrammet viser antal observationer af hvert problem i søjler, og viser samtidigt det akkumulerede antal i procent, for at gøre det enkelt at identificere hvilke årsager der bidrager til hovedparten af problemet (her 80%).</p>
+<p><strong>Trin-for-trin vejledning</strong></p>
+<ol style="list-style-type: decimal">
+<li>Lav en optælling som beskrevet ovenfor, fx ved hjælp af Optællings-skema-skabelonen</li>
+<li>Indtast årsager og antal observationer i redigeringsfanebladet til Paretodiagrammer i Excel-skabelonen Hjælpeværktøjer til kvalitetsforbedring, som findes på Insite under ’Data’.</li>
+<li>Udskriv det færdige Paretodiagram og fokusér forbedringsarbejdet på de væsentligste årsager til problemet.</li>
+</ol>
+
 </div>
 </div>
             </section>
@@ -151,7 +214,8 @@
       </div>
 <a href="brug-forbedringsmodellen-som-ramme.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 
-
+    </div>
+  </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
@@ -160,9 +224,10 @@
 <script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
 <script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
 <script>
-require(["gitbook"], function(gitbook) {
+gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
+"github": false,
 "facebook": true,
 "twitter": true,
 "google": false,
@@ -177,10 +242,10 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": null,
-"text": null
+"link": "https://github.com/johanreventlow/github.io/edit/master/04.Rmd",
+"text": "Redigér"
 },
-"download": null,
+"download": ["Metoder_til_at_understøtte_kvalitetsforbedring.pdf"],
 "toc": {
 "collapse": "subsection"
 }

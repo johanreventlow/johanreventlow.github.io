@@ -1,4 +1,6 @@
-book_filename: "Metoder til at understøtte kvalitetsforbedring"
+book_filename: "Metoder_til_at_understøtte_kvalitetsforbedring"
+delete_merged_file: yes
+edit: https://github.com/johanreventlow/github.io/edit/master/%s
 #chapter_name: "Kapitel "
 output_dir: "docs"
 
@@ -16,5 +18,5 @@ language:
     proof: 'Proof. '
     remark: 'Remark. '
   ui:
-    edit: Edit
+    edit: Redigér
     chapter: ''

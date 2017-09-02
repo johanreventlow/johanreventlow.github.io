@@ -30,21 +30,15 @@ Hvis et seriediagram viser at der er problemer med kvaliteten i en proces, kan e
 
 Nedenstående tabel beskriver kort de forskelige værktøjer og hvornår de kan anvendes. Værktøjerne er beskrevet i flere detaljer i kapitlet [Værktøjer til kvalitetsforbedring]
 
-VÆRKTØJ	SE KAPITEL	HVORNÅR BRUGES DET?
 
-```{r, echo=FALSE}
-knitr::kable(
-  head(mtcars[, 1:8], 10), booktabs = TRUE,
-  caption = 'A table of the first 10 rows of the mtcars data.'
-)
-```
-
-
-| Metode                             |            | Bruges til at ...                                                                         |
+| Værktøj                             | Kapitel  | Bruges til at ...                                                                         |
 |:-----------------------------------|:-----------|:------------------------------------------------------------------------------------------|
-| Forløbsdiagram                     | 3.2        | danne overblik og forstå de forskellige trin i en proces, samt identificere hvor kvalitetsproblemer opstår |
-| Årsags-/virkningsdiagram           | 3.3        | brainstorme om hovedårsagerne til et kvalitetsproblem, samt hvilke underårsager der bidrager til hver årsag |
-| 5 x Hvorfor                        | 3.4        | grave dybere ned i forståelsen af (kerne-)årsagerne til et problem. |
+| Forløbsdiagram                     | 3.2        | danne overblik og forstå de forskellige trin i en proces, samt identificere hvor kvalitetsproblemer opstår
+|
+| Årsags-/virkningsdiagram           | 3.3        | brainstorme om hovedårsagerne til et kvalitetsproblem, samt hvilke underårsager der bidrager til hver årsag
+|
+| 5 x Hvorfor                        | 3.4        | grave dybere ned i forståelsen af (kerne-)årsagerne til et problem.
+|
 | Optællingsskemaer og Paretodiagram | 3.5        | indsamle data om kvalitetsproblemet, til at identificere de vigtigste kilder til problemet og til grafisk at fremstille årsagerne til kvalitetsproblemet |
 
 

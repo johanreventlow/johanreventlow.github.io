@@ -1,36 +1,58 @@
 ---
-title: Metoder til at understøtte kvalitetsforbedring
-subtitle: Bispebjerg og Frederiksberg Hospital
-#author: 
-#- name: Johan Reventlow
-#  affiliation: Bispebjerg og Frederiksberg Hospital
-#date: "`r format(Sys.Date(), '%B %Y')`"
+title: "Metoder til at understøtte kvalitetsforbedring"
+fontsize: 12pt
+geometry: left=5.94cm, right=2.97cm, top=2.97cm, bottom=1.98cm
 output:
   bookdown::gitbook:
     config:
       toc:
         before: |
           <li><img src="../Logo_Bispebjerg_og-Frederiksberg_web.png" width="210" style="padding-left: 15px; padding-top: 15px;"></li>
-  bookdown::pdf_book: default
+  bookdown::pdf_book:
+    fig_caption: yes
+    keep_tex: yes
+    latex_engine: xelatex
+    template: null
+    pandoc_args: --chapters
+  bookdown::tufte_html_book:
+    toc: no
+  tufte::tufte_book:
+    keep_tex: yes
+mainfont: Cambria
 link-citations: yes
+papersize: A4
 site: bookdown::bookdown_site
-documentclass: book
+subtitle: Bispebjerg og Frederiksberg Hospital
+documentclass: report
 ---
 # Forord {-}
 ```{r, echo=FALSE, fig.align='center'}
-#<img src="../Logo_Bispebjerg_og-Frederiksberg_web.png" width="210" style="padding-left: 15px; padding-top: 15px;">
-
 #knitr::include_graphics('5725724-looking-the-future.jpg')
 #out.width = '33%'
 #knitr::include_graphics('COLOURBOX_SAMPLE10169489.jpg')
 #knitr::include_graphics('COLOURBOX_SAMPLE8829556.jpg')
 #knitr::include_graphics('COLOURBOX_SAMPLE8829814.jpg')
-knitr::include_graphics('COLOURBOX_SAMPLE8829395.jpg')
+#knitr::include_graphics('COLOURBOX_SAMPLE8829395.jpg')
 #knitr::include_graphics('COLOURBOX_SAMPLE18106491.jpg')
 
 # Datadrevet ledelse og kvalitetsforbedring {-}
 
 ```
+
+```{r, echo=FALSE}
+
+# DiagrammeR::grViz("
+#   digraph {
+#     layout = twopi
+#     node [shape = circle]
+#     D -> A
+#     C -> D
+#     B -> D
+#   }")
+```
+
+
+
 
 Hermed foreligger Bispebjerg og Frederiksberg Hospitals introduktion til forbedringsarbejdet i 2. udgave, og samtidig udgives den for første gang primært digitalt. Den bærer, som hidtil, titlen 'Metoder til at understøtte kvalitetsforbedring', og er redigeret af Enhed for Kvalitet under Udviklingsafdelingen.
 
