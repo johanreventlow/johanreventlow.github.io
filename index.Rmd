@@ -13,6 +13,7 @@ output:
     keep_tex: yes
     latex_engine: xelatex
     template: null
+
     pandoc_args: --chapters
   bookdown::tufte_html_book:
     toc: no
